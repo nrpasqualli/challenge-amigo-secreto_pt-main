@@ -16,5 +16,6 @@ Este é um projeto simples de **Amigo Secreto** feito com **HTML, CSS e JavaScri
 - **CSS** → Estilização da interface.  
 - **JavaScript (Vanilla JS)** → Lógica de adição, sorteio e exibição dos amigos secretos.  
 
-## 📂 Estrutura do Projeto
+## link para verificar a funcionalidade do projeto
+https://challenge-amigo-secreto-pt-main-nrpasquallis-projects.vercel.app/
 
