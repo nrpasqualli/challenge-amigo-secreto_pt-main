@@ -47,6 +47,9 @@ function sortearAmigo() {
     // Escolhe um nome aleatório da lista
     let indiceSorteado = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[indiceSorteado];
+    // Oculta a lista de amigos
+    document.getElementById("listaAmigos").style.display = "none";
+
 
     // Exibir o resultado na tela
     exibirResultado(amigoSorteado);
