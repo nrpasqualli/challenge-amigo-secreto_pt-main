@@ -37,3 +37,23 @@ function atualizarLista() {
         ulLista.appendChild(li);
     });
 }
+// Função para sortear um amigo aleatório
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("Adicione pelo menos 1 amigo para o sorteio!");
+        return;
+    }
+
+    // Escolhe um nome aleatório da lista
+    let indiceSorteado = Math.floor(Math.random() * amigos.length);
+    let amigoSorteado = amigos[indiceSorteado];
+
+    // Exibir o resultado na tela
+    exibirResultado(amigoSorteado);
+}
+
+// Função para exibir o resultado do sorteio
+function exibirResultado(amigo) {
+    let resultadoDiv = document.getElementById("resultado");
+    resultadoDiv.innerHTML = `O Amigo Secreto sorteado é: ${amigo}`;
+}
